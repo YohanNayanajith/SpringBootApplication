@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface StudentRepository extends JpaRepository<Student,Integer> {
+//    JpaRepository<Student,Integer> = <name of the model class,type of the primary key>
 }
